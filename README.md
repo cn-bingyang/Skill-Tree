@@ -1,6 +1,11 @@
-<h1>-Skill-Tree</h1>   
-Skill Tree task  
-<h2>第一天到第三天 九宫格 </h2> 
-<h2>第四天  学习github </h2>
+# 技能树 #
+## 第一天  ##
+1. html
+2. css
+3. 盒模型
+4. 浮动
+5. viewport
+6. 做九宫格
+7. 了解github
 
 

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" > 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            font-size: 62.5%;
+        }
+        .fbox{
+            padding: 3% 0 0 3%;
+        }
+        .box{
+            float: left;
+            width: 30%;/*父元素的宽度的百分比*/
+            margin: 0 3% 3% 0;
+            padding-top: 30%;  /*此处为父元素宽度的百分比，父元素.fbox未设置就是body的,  就是屏幕宽的30%*/
+            background: yellowgreen;
+    }
+    </style>
+</head>
+<body>
+    <div class="fbox">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+
+</body>
+</html>
